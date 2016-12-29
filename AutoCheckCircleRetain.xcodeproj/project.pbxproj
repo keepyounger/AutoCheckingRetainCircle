@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0BA290B1E1518CB00FCD99F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BA290A1E1518CB00FCD99F /* main.m */; };
+		B0BA290E1E1518CC00FCD99F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BA290D1E1518CC00FCD99F /* AppDelegate.m */; };
+		B0BA29111E1518CC00FCD99F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BA29101E1518CC00FCD99F /* ViewController.m */; };
+		B0BA29141E1518CC00FCD99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BA29121E1518CC00FCD99F /* Main.storyboard */; };
+		B0BA29161E1518CC00FCD99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BA29151E1518CC00FCD99F /* Assets.xcassets */; };
+		B0BA29191E1518CC00FCD99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BA29171E1518CC00FCD99F /* LaunchScreen.storyboard */; };
+		B0BA29251E15195F00FCD99F /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BA29221E15195F00FCD99F /* Aspects.m */; };
+		B0BA29261E15195F00FCD99F /* AutoCheckCircleRetain.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BA29241E15195F00FCD99F /* AutoCheckCircleRetain.m */; };
+		B0BA29291E151A2D00FCD99F /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BA29281E151A2D00FCD99F /* CircleViewController.m */; };
+		B0BA292C1E151AFC00FCD99F /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BA292B1E151AFC00FCD99F /* NormalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0BA29061E1518CB00FCD99F /* AutoCheckCircleRetain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCheckCircleRetain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BA290A1E1518CB00FCD99F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0BA290C1E1518CC00FCD99F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0BA290D1E1518CC00FCD99F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0BA290F1E1518CC00FCD99F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0BA29101E1518CC00FCD99F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0BA29131E1518CC00FCD99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0BA29151E1518CC00FCD99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0BA29181E1518CC00FCD99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0BA291A1E1518CC00FCD99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BA29211E15195F00FCD99F /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		B0BA29221E15195F00FCD99F /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		B0BA29231E15195F00FCD99F /* AutoCheckCircleRetain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCheckCircleRetain.h; sourceTree = "<group>"; };
+		B0BA29241E15195F00FCD99F /* AutoCheckCircleRetain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCheckCircleRetain.m; sourceTree = "<group>"; };
+		B0BA29271E151A2D00FCD99F /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		B0BA29281E151A2D00FCD99F /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		B0BA292A1E151AFC00FCD99F /* NormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		B0BA292B1E151AFC00FCD99F /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0BA29031E1518CB00FCD99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0BA28FD1E1518CB00FCD99F = {
+			isa = PBXGroup;
+			children = (
+				B0BA29201E15195F00FCD99F /* Class */,
+				B0BA29081E1518CB00FCD99F /* AutoCheckCircleRetain */,
+				B0BA29071E1518CB00FCD99F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0BA29071E1518CB00FCD99F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0BA29061E1518CB00FCD99F /* AutoCheckCircleRetain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0BA29081E1518CB00FCD99F /* AutoCheckCircleRetain */ = {
+			isa = PBXGroup;
+			children = (
+				B0BA290C1E1518CC00FCD99F /* AppDelegate.h */,
+				B0BA290D1E1518CC00FCD99F /* AppDelegate.m */,
+				B0BA290F1E1518CC00FCD99F /* ViewController.h */,
+				B0BA29101E1518CC00FCD99F /* ViewController.m */,
+				B0BA29121E1518CC00FCD99F /* Main.storyboard */,
+				B0BA292A1E151AFC00FCD99F /* NormalViewController.h */,
+				B0BA292B1E151AFC00FCD99F /* NormalViewController.m */,
+				B0BA29271E151A2D00FCD99F /* CircleViewController.h */,
+				B0BA29281E151A2D00FCD99F /* CircleViewController.m */,
+				B0BA29151E1518CC00FCD99F /* Assets.xcassets */,
+				B0BA29171E1518CC00FCD99F /* LaunchScreen.storyboard */,
+				B0BA291A1E1518CC00FCD99F /* Info.plist */,
+				B0BA29091E1518CB00FCD99F /* Supporting Files */,
+			);
+			path = AutoCheckCircleRetain;
+			sourceTree = "<group>";
+		};
+		B0BA29091E1518CB00FCD99F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0BA290A1E1518CB00FCD99F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0BA29201E15195F00FCD99F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B0BA29211E15195F00FCD99F /* Aspects.h */,
+				B0BA29221E15195F00FCD99F /* Aspects.m */,
+				B0BA29231E15195F00FCD99F /* AutoCheckCircleRetain.h */,
+				B0BA29241E15195F00FCD99F /* AutoCheckCircleRetain.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0BA29051E1518CB00FCD99F /* AutoCheckCircleRetain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BA291D1E1518CC00FCD99F /* Build configuration list for PBXNativeTarget "AutoCheckCircleRetain" */;
+			buildPhases = (
+				B0BA29021E1518CB00FCD99F /* Sources */,
+				B0BA29031E1518CB00FCD99F /* Frameworks */,
+				B0BA29041E1518CB00FCD99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCheckCircleRetain;
+			productName = AutoCheckCircleRetain;
+			productReference = B0BA29061E1518CB00FCD99F /* AutoCheckCircleRetain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0BA28FE1E1518CB00FCD99F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lixy;
+				TargetAttributes = {
+					B0BA29051E1518CB00FCD99F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B0BA29011E1518CB00FCD99F /* Build configuration list for PBXProject "AutoCheckCircleRetain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0BA28FD1E1518CB00FCD99F;
+			productRefGroup = B0BA29071E1518CB00FCD99F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0BA29051E1518CB00FCD99F /* AutoCheckCircleRetain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0BA29041E1518CB00FCD99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BA29191E1518CC00FCD99F /* LaunchScreen.storyboard in Resources */,
+				B0BA29161E1518CC00FCD99F /* Assets.xcassets in Resources */,
+				B0BA29141E1518CC00FCD99F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0BA29021E1518CB00FCD99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BA29111E1518CC00FCD99F /* ViewController.m in Sources */,
+				B0BA290E1E1518CC00FCD99F /* AppDelegate.m in Sources */,
+				B0BA290B1E1518CB00FCD99F /* main.m in Sources */,
+				B0BA29251E15195F00FCD99F /* Aspects.m in Sources */,
+				B0BA29291E151A2D00FCD99F /* CircleViewController.m in Sources */,
+				B0BA29261E15195F00FCD99F /* AutoCheckCircleRetain.m in Sources */,
+				B0BA292C1E151AFC00FCD99F /* NormalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0BA29121E1518CC00FCD99F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BA29131E1518CC00FCD99F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0BA29171E1518CC00FCD99F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BA29181E1518CC00FCD99F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0BA291B1E1518CC00FCD99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0BA291C1E1518CC00FCD99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0BA291E1E1518CC00FCD99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AutoCheckCircleRetain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixy.AutoCheckCircleRetain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0BA291F1E1518CC00FCD99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AutoCheckCircleRetain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixy.AutoCheckCircleRetain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0BA29011E1518CB00FCD99F /* Build configuration list for PBXProject "AutoCheckCircleRetain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BA291B1E1518CC00FCD99F /* Debug */,
+				B0BA291C1E1518CC00FCD99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BA291D1E1518CC00FCD99F /* Build configuration list for PBXNativeTarget "AutoCheckCircleRetain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BA291E1E1518CC00FCD99F /* Debug */,
+				B0BA291F1E1518CC00FCD99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0BA28FE1E1518CB00FCD99F /* Project object */;
+}
