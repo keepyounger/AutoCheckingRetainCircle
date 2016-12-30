@@ -1,6 +1,7 @@
 # AutoCheckCircleRetain
 Checking retain circle automatically.<br/>
-自动检测项目中的循环引用
+自动检测项目中的循环引用<br/>
+![demo](demo.gif)
 #Why
 Annoying retain circle.<br/>
 烦人的循环引用。
