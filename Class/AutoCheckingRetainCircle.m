@@ -1,12 +1,12 @@
 //
-//  AutoCheckCircleRetain.m
-//  AutoCheckCircleRetain
+//  AutoCheckingRetainCircle.m
+//  AutoCheckingRetainCircle
 //
 //  Created by lixy on 2016/12/29.
 //  Copyright © 2016年 lixy. All rights reserved.
 //
 
-#import "AutoCheckCircleRetain.h"
+#import "AutoCheckingRetainCircle.h"
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 #import "Aspects.h"
@@ -44,9 +44,9 @@
                         dispatch_async(dispatch_get_main_queue(), ^{
                             
                             if (weakSelf.xy_exsit) {
-                                UIAlertView *view = [[UIAlertView alloc] initWithTitle:@"【警告】【有vc可能没有正确释放】" message:NSStringFromClass([weakSelf class]) delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+                                UIAlertView *view = [[UIAlertView alloc] initWithTitle:@"⚠️有vc可能没有正确释放" message:NSStringFromClass([weakSelf class]) delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
                                 [view show];
-                                NSLog(@"【警告】【有vc可能没有正确释放%@】",weakSelf);
+                                NSLog(@"【AutoCheckingRetainCircle】【⚠️有vc可能没有正确释放】\nvc=%@",weakSelf);
 
                             }
                             
@@ -64,9 +64,9 @@
 #endif
 @end
 
-static AutoCheckCircleRetain *m_instance = nil;
+static AutoCheckingRetainCircle *m_instance = nil;
 
-@implementation AutoCheckCircleRetain
+@implementation AutoCheckingRetainCircle
 
 #ifdef DEBUG
 + (void)load
@@ -79,8 +79,8 @@ static AutoCheckCircleRetain *m_instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         //只在debug模式运行
-        NSLog(@"【AutoCheckCircleRetain】只在DEBUG模式运行，请放心使用，此提示只提示一次");
-        m_instance = [[AutoCheckCircleRetain alloc] init];
+        NSLog(@"【AutoCheckingRetainCircle】只在DEBUG模式运行，请放心使用，此提示只提示一次");
+        m_instance = [[AutoCheckingRetainCircle alloc] init];
     });
     return m_instance;
 }
